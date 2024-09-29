@@ -24,8 +24,12 @@ class PrimaryButton extends StatelessWidget {
       height: 40,
       child: ElevatedButton(
         style: ButtonStyle(
-          backgroundColor:
-              WidgetStatePropertyAll(backgroundColor ?? QuizColors.yellow),
+          side: const WidgetStatePropertyAll(
+            BorderSide(color: QuizColors.yellowDark, width: 2),
+          ),
+          backgroundColor: WidgetStatePropertyAll(
+            backgroundColor ?? QuizColors.yellow,
+          ),
           elevation: const WidgetStatePropertyAll(24),
         ),
         onPressed: onTap,

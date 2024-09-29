@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 abstract class QuizColors {
   static const yellow = Color(0xFFFFD700);
   static const yellowSoft = Color(0xFFFFE066);
+  static const yellowDark = Color(0xFF806C00);
   static const orange = Color(0xFFFF4500);
   static const orangeSoft = Color(0xFFFF7043);
   static const white = Color(0xFFFFFFFF);
