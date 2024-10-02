@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:quiz_master/src/theme/quiz_colors.dart';
+import 'package:quiz_master/src/core/theme/quiz_colors.dart';
 
 ThemeData quizMasterTheme = ThemeData(
   useMaterial3: true,

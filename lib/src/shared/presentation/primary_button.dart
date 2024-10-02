@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:quiz_master/src/theme/font_size.dart';
-import 'package:quiz_master/src/theme/quiz_colors.dart';
-import 'package:quiz_master/src/utils/util.dart';
+import 'package:quiz_master/src/core/theme/font_size.dart';
+import 'package:quiz_master/src/core/theme/quiz_colors.dart';
+import 'package:quiz_master/src/core/utils/util.dart';
 
 class PrimaryButton extends StatelessWidget {
   final String label;
@@ -25,7 +25,7 @@ class PrimaryButton extends StatelessWidget {
       child: ElevatedButton(
         style: ButtonStyle(
           side: const WidgetStatePropertyAll(
-            BorderSide(color: QuizColors.yellowDark, width: 2),
+            BorderSide(color: QuizColors.yellowDark, width: 3),
           ),
           backgroundColor: WidgetStatePropertyAll(
             backgroundColor ?? QuizColors.yellow,

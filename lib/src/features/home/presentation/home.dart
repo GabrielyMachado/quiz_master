@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:quiz_master/src/components/primary_button.dart';
-import 'package:quiz_master/src/theme/font_size.dart';
-import 'package:quiz_master/src/theme/quiz_colors.dart';
-import 'package:quiz_master/src/theme/quiz_padding.dart';
-import 'package:quiz_master/src/utils/util.dart';
+import 'package:quiz_master/src/shared/presentation/primary_button.dart';
+import 'package:quiz_master/src/core/theme/font_size.dart';
+import 'package:quiz_master/src/core/theme/quiz_colors.dart';
+import 'package:quiz_master/src/core/theme/quiz_padding.dart';
+import 'package:quiz_master/src/core/utils/util.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
