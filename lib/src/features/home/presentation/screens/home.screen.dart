@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:quiz_master/src/shared/presentation/primary_button.dart';
+import 'package:quiz_master/src/shared/presentation/widgets/primary_button.dart';
 import 'package:quiz_master/src/core/theme/font_size.dart';
 import 'package:quiz_master/src/core/theme/quiz_colors.dart';
 import 'package:quiz_master/src/core/theme/quiz_padding.dart';

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:quiz_master/src/features/home/presentation/home.dart';
+import 'package:quiz_master/src/features/home/presentation/screens/home.screen.dart';
 import 'package:quiz_master/src/core/theme/main_theme.dart';
 
 void main() {
